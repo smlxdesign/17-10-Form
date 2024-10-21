@@ -1,6 +1,10 @@
 {
   "files.exclude": {
     "node_modules": true,
-    "yarn.lock": true
+    "yarn.lock": true,
+    "eslint.config.mjs": true,
+    ".prettierrc": true,
+    ".gitignore": true,
+    ".vscode": true
   }
 }

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply rounded-md pb-1 pl-2 pr-2 pt-1 text-gray-700 placeholder:font-light placeholder:italic;
+}
