@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link
+      rel="shortcut icon"
+      href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ficon-library.com%2Fimages%2Ficon-contact-us%2Ficon-contact-us-22.jpg&f=1&nofb=1&ipt=5520665b0ace1728cdd28ce1b2a379c3cfe6439137d10207284e0c8791247592&ipo=images"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <form>
+      <label for="name">Full Name</label>
+      <input
+        id="name"
+        placeholder="John Doe"
+        name="name"
+        type="text"
+        autocomplete="name"
+        required
+      />
+
+      <br />
+
+      <label for="email">Email Address</label>
+      <input
+        id="email"
+        placeholder="name@example.com"
+        name="email"
+        type="email"
+        autocomplete="email"
+        required
+      />
+
+      <br />
+
+      <label for="subject">Subject</label>
+      <input
+        id="subject"
+        placeholder="Summarize your message"
+        name="subject"
+        type="text"
+        required
+      />
+
+      <br />
+
+      <label for="message">Message</label>
+      <textarea
+        name="message"
+        placeholder="Your Message"
+        rows="4"
+        id="message"
+        required
+      ></textarea>
+
+      <br />
+
+      <input type="submit" id="submit" />
+    </form>
+
+    <script type="module" src="./script/app.js"></script>
+  </body>
+</html>
