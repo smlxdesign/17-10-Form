@@ -8,7 +8,7 @@ export default [
   eslintConfigPrettier,
   {
     rules: {
-      eqeqeq: 'off',
+      eqeqeq: 'warn',
       'no-unused-vars': 'warn',
     },
   },

@@ -8,5 +8,10 @@
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.11.0",
     "prettier": "3.3.3"
-  }
+  },
+  "name": "simple-contact-form",
+  "version": "1.0.0",
+  "description": "a simple form to contact me",
+  "author": "SMLX Design <smlxdesign@duck.com>",
+  "license": "MIT"
 }
