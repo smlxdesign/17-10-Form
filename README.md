@@ -8,6 +8,8 @@
 
 **NOT FINISHED! It currently doesn't send the messages to a server, just saves them into localstorage.**
 
+![GitHub License](https://img.shields.io/github/license/smlxdesign/simple-contact-form)
+
 ## About the project
 
 I created this simple contact form to add to my portfolio. A contact form is important because it lets people get in touch easily. This project helped me practise my web development skills.
