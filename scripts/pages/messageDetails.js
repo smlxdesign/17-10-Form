@@ -1,4 +1,4 @@
-import { getMessageById } from '../data.js';
+import { getMessageById } from '../data/messages.js';
 
 const params = new URLSearchParams(document.location.search);
 const id = params.get('id');
@@ -7,7 +7,7 @@ const message = getMessageById(id);
 if (message) {
   renderMessage();
 } else {
-  document.location.href = 'messages.html';
+  document.location.href = 'dashboard.html';
 }
 
 function renderMessage() {

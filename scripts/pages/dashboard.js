@@ -1,4 +1,4 @@
-import { messages } from '../data.js';
+import { messages } from '../data/messages.js';
 
 function renderTable() {
   const table = document.querySelector('#messages-table');

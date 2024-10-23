@@ -3,75 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Form</title>
-    <link
-      rel="shortcut icon"
-      href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ficon-library.com%2Fimages%2Ficon-contact-us%2Ficon-contact-us-22.jpg&f=1&nofb=1&ipt=5520665b0ace1728cdd28ce1b2a379c3cfe6439137d10207284e0c8791247592&ipo=images"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./styles/tailwind.css" />
+    <title>Redirecting...</title>
   </head>
-  <body class="bg-gray-50 p-8">
-    <h1 class="text-3xl font-bold">Contact Us</h1>
-
-    <form class="flex flex-col justify-evenly">
-      <div class="flex flex-col">
-        <div class="mt-4 flex flex-col">
-          <label for="name">Full Name</label>
-          <input
-            class="input"
-            id="name"
-            placeholder="John Doe"
-            name="name"
-            type="text"
-            autocomplete="name"
-            required
-          />
-        </div>
-
-        <div class="mt-4 flex flex-col">
-          <label for="email">Email Address</label>
-          <input
-            class="input"
-            id="email"
-            placeholder="name@example.com"
-            name="email"
-            type="email"
-            autocomplete="email"
-            required
-          />
-        </div>
-      </div>
-
-      <div class="mt-5 flex flex-col">
-        <div class="mt-4 flex flex-col">
-          <label for="subject">Subject</label>
-          <input
-            class="input"
-            id="subject"
-            placeholder="Summarize your message"
-            name="subject"
-            type="text"
-            required
-          />
-        </div>
-
-        <div class="mt-4 flex flex-col">
-          <label for="message">Message</label>
-          <textarea
-            class="input"
-            name="message"
-            placeholder="Your Message"
-            rows="4"
-            id="message"
-            required
-          ></textarea>
-        </div>
-      </div>
-
-      <input type="submit" id="submit" class="button primary" />
-    </form>
-
-    <script type="module" src="./scripts/app.js"></script>
+  <body>
+    <script>
+      document.location.href = '/pages/contact.html';
+    </script>
   </body>
 </html>

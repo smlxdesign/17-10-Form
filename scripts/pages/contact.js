@@ -1,4 +1,4 @@
-import { sendMessage } from './data.js';
+import { sendMessage } from '.././data/messages.js';
 
 const form = document.querySelector('form');
 
