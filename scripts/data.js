@@ -1,4 +1,4 @@
-export let messages = loadFromStorage() || [];
+export const messages = loadFromStorage() || [];
 
 export function sendMessage(fullName, email, subject, message) {
   const id = self.crypto.randomUUID();

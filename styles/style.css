@@ -5,3 +5,11 @@
 .input {
   @apply rounded-md pb-1 pl-2 pr-2 pt-1 text-gray-700 placeholder:font-light placeholder:italic;
 }
+
+.button {
+  @apply mt-16 cursor-pointer rounded-md bg-gray-100 p-4 text-gray-800 transition-all hover:bg-gray-200 hover:transition-all;
+}
+
+.button.primary {
+  @apply bg-blue-700 font-bold text-blue-50 hover:bg-blue-800;
+}

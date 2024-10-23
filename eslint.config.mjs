@@ -10,6 +10,7 @@ export default [
     rules: {
       eqeqeq: 'warn',
       'no-unused-vars': 'warn',
+      'prefer-const': 'warn',
     },
   },
 ];
