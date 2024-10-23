@@ -7,7 +7,7 @@
 }
 
 .button {
-  @apply mt-16 cursor-pointer rounded-md bg-gray-100 p-4 text-gray-800 transition-all hover:bg-gray-200 hover:transition-all;
+  @apply mt-16 flex cursor-pointer justify-center rounded-md bg-gray-100 p-4 align-middle text-gray-800 transition-all hover:bg-gray-200 hover:transition-all;
 }
 
 .button.primary {

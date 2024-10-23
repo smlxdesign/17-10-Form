@@ -17,6 +17,16 @@ export function sendMessage(fullName, email, subject, message) {
   saveToStorage();
 }
 
+export function getMessageById(messageId) {
+  let result;
+  messages.forEach((e) => {
+    if (e.id === messageId) {
+      result = e;
+    }
+  });
+  return result;
+}
+
 function saveToStorage() {
   localStorage.setItem('messages', JSON.stringify(messages));
 }
